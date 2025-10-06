@@ -45,7 +45,7 @@ function resetListRandomNumbers() {
 }
 
 function speakVoice(text) {
-    responsiveVoice.speak(text, 'Brazilian Portuguese Female', {rate: 1});
+    responsiveVoice.speak(text, 'Brazilian Portuguese Female', {rate: 1.1});
     // responsiveVoice.speak(text, 'UK English Male', {rate: 1.1});
 }
 
