@@ -25,7 +25,7 @@ function newGame() {
 function selectNewRandomNumber() {
     let randomNumber = createRandomNumber();
     
-    resetListRandomNumbers();
+    resetListRandomNumbersIfMaxRange();
     return verifyRandomNumberInList(randomNumber);
 }
 
@@ -38,7 +38,7 @@ function verifyRandomNumberInList(num) {
     }
 }
 
-function resetListRandomNumbers() {
+function resetListRandomNumbersIfMaxRange() {
     if (listRandomNumbers.length == maxValueRange) {
         listRandomNumbers = [];
     }
